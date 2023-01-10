@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+
+section{
+    height: auto;
+    width: 100%;
+    padding: 40px 25px;
+}
+
+.section-1{
+    background-image: url(./Asset/banner/banner2.png);
+    height: 700px;
+    width: 100%;
+    padding: 200px;
+  
+
+}
+
+.section-container{
+    display: flex;
+    text-align: right;
+    align-items:flex-end;
+    margin-left: 300px;
+    padding-bottom: 15px;
+
+
+}
+.section-left{
+    width: 50%;
+
+}
+.section-right{
+    width: 50%;
+    
+}
+.head-titel{
+    width: 400px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+}
+.head-text{
+    width: 400px;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 15px;
+
+   
+}
+.btn{
+   background-color: orangered;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+
+
+}
+.left-area img{
+    width: 80%;
+
+}
+.heading-text{
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: center;
+
+
+}
+.right-area ul li{
+    list-style: none;
+    justify-content: left;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+    
+
+}
+ul li i{
+    color: green;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.right-area .heading-desc{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    justify-content: center;
+   
+}
+.right-area{
+    width: 600px;
+}
+.plan-heading{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.img-area{
+    margin-left: 25px;
+}
+.icon-pra{
+    margin-left: 25px;
+   
+}
+
+ .icon-container{
+    display: flex;
+    margin-left: 50px;
+    padding-left:50px;
+    height: 200px;
+
+}
+.sec-img-part{
+    margin-left:150px;
+    margin-right: 150px;
+    display: block;
+    background-image:linear-gradient( to right,
+    rgba(241, 48, 5, 0.653),
+    rgba(124, 117, 91, 0.25)), url(./Asset/watch.png  );
+    height: 300px;
+    width: 75%;
+    background-repeat: no-repeat;
+   
+    
+
+    
+}
+.position{
+   font-size: 30px;
+   margin-top: 30px;
+   margin-left: 50px;
+    padding-top:50px ;
+   color:white; 
+}
+
+.btn-call{
+    padding: 10px;
+    border-radius:5% ;
+    border: none;
+    color: red;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+
+
+}
+
+/* section-3 */
+
+.card-head{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+
+.card-containers{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.card{
+    margin: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.card-title{
+    font-size: 20px;
+    margin: -20px;
+    padding: 30px;
+}
+.card-desc{
+    margin-left: 10px;
+    color: gray;
+
+}
+.devlop{
+    margin: -5px;
+}
+
+/* footer */
+
+
+.container{
+    max-width: 100%;
+    /* margin: auto;
+    */
+}
+
+.row{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: #24262b;
+    /* padding: 70px,0;
+    margin: 50px 0; */
+    /* clear: both; */
+}
+.footer-col{
+    width: 50%;
+    padding:80px;
+    color: wheat;
+}
+
+.phara{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+ .col-phone{
+    margin-bottom: 15px;
+}
+
+
+
+.footer-right{
+    width: 50%;
+    padding:100px ;
+    color: wheat;
+}
+.subscribe{
+    font-size:30px;
+    padding: 5px;
+    margin-left: auto;
+    height: 50px;
+}
+
+#email{
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    
+}
+.button{
+    padding: 8px;
+    border-radius:5% ;
+    border: none;
+    color: red;
+}
+
+
+
+
+.nev-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgba(124, 122, 122, 0.5);
+    width: 100%;
+   
+
+}
+
+.logo-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-title{
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(91, 2, 72);
+
+
+}
+/* .logo{
+    width: 250px;
+} */
+/* .manu-container{
+    display:flex ;
+    margin:0 50%;
+
+
+} */
+
+.items{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+   
+}
+
+.item{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor:pointer;
+    
+ 
+}
